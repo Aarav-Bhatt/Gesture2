@@ -1,0 +1,55 @@
+<html>
+    <head><title>Emoji guesser</title>
+
+
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="maindiv">
+            <h3>Emotion to Emoji
+            <br>
+            <span>&#👌;</span>
+            <span>&#👍;</span>
+            <span>&#🤟;</span>
+           
+            </h3>
+           
+        </div>
+        <h1>Take your selfie to generate gesture</h1>
+       
+        <div id="webcam">
+            <label id="Webcam">Webcam</label>
+            <div id="camera">
+
+            </div>
+            <button>Capture Image</button>
+        </div>
+
+        <div id="webcam1">
+            <label id="Snapshot">Snapshot</label>
+            <div id="camera2">
+
+            </div>
+            <button>Identify gesture</button>
+        </div>
+
+<div id="centre">
+
+<label id="Prediction1">Prediction1</label>
+<h2 id="p1name"></h2>
+<h2 id="p1emoji"></h2>
+
+
+  
+</div>
+
+        
+    </body>
+</html>
